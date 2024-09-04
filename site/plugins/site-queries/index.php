@@ -17,8 +17,8 @@ Kirby::plugin('10pm/dawes-site-queries', [
                             "news_on" => $kirby->site()->news_on()->toBool(),
                             "news_text" => $kirby->site()->news_text()->upper(),
                             "contact" => [
-                                $kirby->site()->children()->find('contact')->contact(),
-                                $kirby->site()->children()->find('contact')->id()
+                                "contact" => $kirby->site()->children()->find('contact')->contact(),
+                                "id" => $kirby->site()->children()->find('contact')->id()
                             ]
                          ]
                     ];
