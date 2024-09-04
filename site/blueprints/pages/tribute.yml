@@ -1,0 +1,56 @@
+title: Tribute
+icon: account
+options:
+  changeTemplate:
+    - default
+    - artist
+
+
+tabs:
+  content_tab:
+    label: Content
+    icon: text
+    columns:
+     - width: 2/4
+        fields:
+          caption:
+            type: text
+            help: Eg. Photographer
+          single_image:
+            type: files
+            label: Tribute Image
+            max: 1
+            layout: cards
+          text:
+            type: writer
+            label: Tribute Text
+     - width: 2/4
+        fields:
+          cover:
+            label: Cover Images
+            type: files
+            max: 3
+            layout: cards
+            size: tiny
+            image:
+              ratio: 1/1
+              cover: true
+              back: white
+            help: These images appear on home page when hover over name
+
+
+            
+         
+  seotab: seo   
+
+
+  files_tab:
+    label: Files
+    icon: add
+    sections:
+      filesSection:
+        headline: Files
+        type: files
+        layout: cards
+        size: small
+        template: default        

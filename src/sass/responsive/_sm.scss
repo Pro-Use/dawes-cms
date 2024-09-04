@@ -1,0 +1,139 @@
+$name: sm;  
+$size: map-deep-get($breakpoints, "sm", "width"); 
+
+
+@media only screen and (min-width: $size) {
+
+/*
+================================================================
+TRIBUTE PAGE
+================================================================
+*/
+
+.tribute-content{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.image-section{
+    max-width: 450px;
+}
+
+.text-section{
+    // padding-top: 1em;
+}
+
+// END
+
+    .artist-header{
+        padding-top: 2em;
+        text-align: center;
+        padding-bottom: 2em;
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+    }
+    
+    .artist-title{
+        text-transform: uppercase;
+        max-width: 400px;
+        margin: 0 auto;
+        padding-bottom: 0;
+    }
+    
+    .bio-link-wrapper{
+        position: absolute;
+        top:0;
+        right: 0;
+        padding-top: 2rem;
+        font-size: 1.875em;
+    }
+
+    .back-link-wrapper{
+        position: absolute;
+        top:0;
+        left: 0;
+        padding-top: 2rem;
+        font-size: 1.875em;
+    }
+    
+    .artist-cat{
+        padding: 0;
+        display: none;
+    }
+
+
+    .artist-index-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 60px;
+    }
+
+    .artist-index{
+        padding: 160px 30px 0px;
+        min-height: 100vh;
+        .artist-footer{
+            display: block;
+        }
+    }
+
+    .private-content{
+         .artist-index{
+            padding: 10px 30px 0px;
+            min-height: 0px;
+         }
+    }
+    
+    .album{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 0;
+    }
+    
+    .artist-bio{
+        height: 100vh;
+        padding: 160px 0 0px;
+        width: 100%;
+        display: none;
+        position: fixed;
+        overflow: auto;
+        top: 0;
+        background: white;
+        .bio-inner{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .body-content{
+            flex: 1;
+        }
+    }
+
+    
+
+    .album-caption{
+        opacity: 0;
+        transition: opacity 200ms ease-in-out;
+    }
+    
+    a:hover, a:focus{
+        .album-caption{
+            opacity: 1;
+        }
+    }
+
+
+.login-form{
+    .submit-button{
+       width: 50%;
+       float: right;
+    }
+}
+    
+} /* End Media Query */

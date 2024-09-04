@@ -1,0 +1,32 @@
+/*
+================================================================
+ACCESSIBILITY
+================================================================
+*/
+
+.keyboard-focus{    
+    *:focus{
+        outline: none;
+        outline: 3px solid var(--dawes-green);
+    }
+}
+
+
+a.skip-to-content{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    display: block;
+    transition: 200ms ease-in-out transform;
+    z-index: 100000;
+    background-color: white;
+    text-decoration: none;
+    &:focus{
+        transition: 200ms ease-in-out transform;
+        transform: translate(-50%,20px);
+    }
+}

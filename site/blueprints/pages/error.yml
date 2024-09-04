@@ -1,0 +1,15 @@
+title: Contact
+icon: alert
+options:
+  changeTemplate:
+    - default
+
+tabs:
+  content_tab:
+    label: Content
+    icon: text
+    columns:
+     - width: 2/3
+        fields:
+          message:
+            type: writer

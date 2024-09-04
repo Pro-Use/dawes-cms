@@ -1,0 +1,126 @@
+/*
+================================================================
+SLIDESHOW
+================================================================
+*/
+
+.slideshow-wrapper{
+    width: 100%;
+    overflow: hidden;
+}
+
+.slideshow, .slide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    height: -webkit-fill-available;
+}
+
+.slideshow-close-button{
+    position: absolute;
+    top: var(--pageMargins);
+    left: 50%;
+    transform: translate(-50%,0);
+    display: block;
+    z-index: 100001;
+}
+
+.slideshow-footer{
+    position: absolute;
+    bottom: 0;
+    padding: var(--pageMargins);
+    left: 0;
+    width: 100%;
+    display: block;
+    z-index: 100001;
+    text-align: center;
+}
+
+.slideshow-close-button, .slideshow-footer{
+    font-size: 1.125em;
+}
+
+.slide-inner{
+    width: 100%;
+    height: 100vh;
+    height: -webkit-fill-available;
+    position: relative;
+    .slide-image-container{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left:0;
+        padding: 80px 10px 80px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        img, video{
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        .video-wrapper{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            z-index: 100001;
+        }
+        iframe{
+            position: absolute;
+            z-index: 100001;
+            width: 100%;
+            height: 100%;
+            border: 0;
+            outline: 0;
+        }
+    }
+}
+
+.plyr, .js-player{
+    z-index: 2;
+    pointer-events: all;
+}
+
+.next-slide{
+    position: absolute;
+    top:0;
+    right:0;
+    width: 50%;
+    height: 100%;
+    display: block;
+    background: transparent;
+    // background: rgba(0,0,0,.1);
+    border:0;
+    outline: 0;
+    transform: translateX(100%);
+    &:focus{
+        transform: translateX(0);
+    }
+}
+
+.prev-slide{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 50%;
+    height: 100%;
+    display: block;
+    background: transparent;
+    // background: rgba(250,0,0,.1);
+    border:0;
+    outline: 0;
+    transform: translateX(-100%);
+    &:focus{
+        transform: translateX(0);
+    }
+}
+
+
+
+:root {
+    --plyr-color-main: #1ac266;
+  }

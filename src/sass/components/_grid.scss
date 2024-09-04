@@ -1,0 +1,89 @@
+/*
+================================================================
+RESPONSIVE BREAKPOINTS
+================================================================
+*/
+
+$breakpoints: (
+  xs: ( width: 0px ),  
+  sm: ( width: 600px ),
+  md: ( width: 768px ),  
+  lg: ( width: 1200px ),   
+  xl: ( width: 1500px ),
+  xxl:( width: 2000px)
+);  
+
+$columns: 12;
+
+/*
+================================================================
+DEEP FUNCTION
+================================================================
+*/
+
+
+@function map-deep-get($map, $keys...) {
+  @each $key in $keys {
+      $map: map-get($map, $key);
+  }
+  @return $map;
+}
+
+
+/*
+================================================================
+GRID
+================================================================
+*/
+
+@each $label, $map in $breakpoints {
+  @media only screen and (min-width: map-get($map, width)) {
+    
+    /*
+    ================================================================
+    UTILITY CLASSES
+    ================================================================
+    */
+
+
+    .#{$label}-visuallyhidden {
+      position: absolute;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      height: 1px; width: 1px;
+      margin: -1px; padding: 0; border: 0;
+    }
+
+    .#{$label}-hide {
+      display: none;
+    }
+
+    .#{$label}-show {
+      display: inline-block;
+    }
+
+    .#{$label}-full{
+      grid-column: 1 / -1;
+    }
+
+    /*
+    ================================================================
+    GRID
+    ================================================================
+    */
+  
+    @for $x from 1 through $columns {
+        .#{$label}-col-#{$x}{
+          grid-column: span #{$x};
+        }
+      @for $i from 1 through $columns {
+        .#{$label}-col-#{$x}-#{$i}{
+          grid-column: #{$x} / span #{$i};
+        }
+      }
+    }
+
+  }
+}
+
+

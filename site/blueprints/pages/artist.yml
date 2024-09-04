@@ -1,0 +1,111 @@
+title: Artist
+icon: account
+options:
+  changeTemplate:
+    - default
+    - tribute
+
+tabs:
+  content_tab:
+    label: Content
+    icon: text
+    columns:
+     - width: 2/4
+        fields:
+          caption:
+            type: text
+            help: Eg. Photographer
+          biography:
+            type: writer
+          contact:
+            type: writer
+     - width: 2/4
+        fields:
+          cover:
+            label: Cover Images
+            type: files
+            max: 3
+            layout: cards
+            size: tiny
+            image:
+              ratio: 1/1
+              cover: true
+              back: white
+            help: These images appear on home page when hover over name
+
+     - width: 2/4
+        fields:
+          display:
+            type: toggles
+            label: Template Type
+            options:
+              - value: single
+                text: Single Slideshow
+              - value: mixed
+                text: Single Slideshow with Videos
+              - value: multiple
+                text: Multiple Slideshows  
+            grow: false 
+            default: single
+     - width: 2/4
+        fields:
+          categories:
+            type: tags
+          placeholder:
+            type: writer
+            
+     - width: 4/4
+        sections:
+          albums:
+            type: pages
+            headline: Albums 
+            layout: cards
+            create: slideshow
+            template: slideshow   
+            image:
+              query: page.cover.tofile
+              ratio: 1/1
+              back: white
+            when:
+              display: multiple
+
+     - width: 4/4
+        fields:
+          mixedGallery:
+            label: Mixed Gallery
+            type: blocks
+            fieldsets:
+              - video
+              - image
+            when:
+               display: mixed
+            width: 4/4
+            uploads: default
+     
+     - width: 4/4
+        fields:        
+          gallery:
+            label: Images
+            type: files
+            layout: cards
+            size: small 
+            image:
+              ratio: 1/1
+              back: white
+            when:
+              display: single
+        
+         
+  seotab: seo   
+
+
+  files_tab:
+    label: Files
+    icon: add
+    sections:
+      filesSection:
+        headline: Files
+        type: files
+        layout: cards
+        size: small
+        template: default        

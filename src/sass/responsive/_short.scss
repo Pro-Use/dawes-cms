@@ -1,0 +1,142 @@
+@media only screen and (max-height: 600px) {
+
+/*  
+================================================================
+UTILITY CLASSES
+================================================================  
+*/
+
+
+.short-visuallyhidden { 
+  position: absolute; 
+  overflow: hidden; 
+  clip: rect(0 0 0 0); 
+  height: 1px; width: 1px; 
+  margin: -1px; padding: 0; border: 0; 
+}
+
+.short-visible { 
+  position: inherit; 
+  overflow: visible; 
+  clip: auto; 
+  height: auto; width: auto; 
+}
+
+.short-hide {
+   display: none;
+}
+
+.short-show {
+   display: inline-block;
+}
+
+
+/*
+================================================================
+HOME
+================================================================
+*/
+
+.home-content{
+  position: relative;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  background-color: red;
+}
+
+.artist-background-images{
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+}
+
+.artist-list{
+  display:  block;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 100px 10px 100px;
+  z-index: 11;
+  width: 100%;
+  position: static;
+}
+
+a.artist-link{
+  background-color: var(--dawes-black);
+  color: white;
+  display: block;
+  text-decoration: none;
+  margin: 20px auto 20px;
+  width: 100%;
+  max-width: 550px;
+  display: block;
+  .artist-name{
+      padding: 5px;
+      font-size: 30px;
+      line-height: 30px;
+      text-align: center;
+      text-transform: uppercase;
+      width: 100%;
+      display: block;
+      pointer-events: none;
+  }
+  .artist-caption{
+      padding: 0px 5px 8px;
+      font-size: 12px;
+      line-height: 12px;
+      text-align: center;
+      display: block;
+      text-transform: uppercase;        
+      font-family: 'Monument-Semi-Mono', monospace;
+      pointer-events: none;
+  }
+}
+
+.js{
+  .artist-link{
+      opacity: 0;
+  }
+  .vis{
+      opacity: 1;
+  }
+}
+
+.artist-background-image{
+  display: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 10;
+  top:0;
+  left:0;
+}
+
+.artist-link:hover{
+  color: var(--dawes-green);
+}
+
+.home-footer{
+  color: white;
+}
+
+.contact-link{
+  width: 136px;
+  position: static;
+  text-align: center;
+  font-size: 1.5em;
+  z-index: 10000;
+  mix-blend-mode: difference;
+  z-index: 11;
+}
+
+
+
+
+
+}// END MEDIA QUERY

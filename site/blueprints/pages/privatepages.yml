@@ -1,0 +1,30 @@
+title: Private Pages
+icon: lock
+
+tabs:
+  content_tab:
+    label: Content
+    icon: text
+    columns:
+     - width: 4/4
+        sections:
+          pages:
+            type: pages
+            headline: Pages 
+            layout: list
+            create: private
+            template: private   
+         
+  seotab: seo   
+
+
+  files_tab:
+    label: Files
+    icon: add
+    sections:
+      filesSection:
+        headline: Files
+        type: files
+        layout: cards
+        size: small
+        template: default        

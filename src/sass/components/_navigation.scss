@@ -1,0 +1,282 @@
+/*
+================================================================
+HEADER
+================================================================
+*/
+
+.site-title{
+    width: 136px;
+    display: block;
+    margin: 0 auto;
+    height: 35px;
+    position: relative;
+    z-index: 10000;
+    mix-blend-mode: difference;
+    a{
+        display: block;
+        width: 100%;
+    }
+    svg{
+        width: 100%;
+        position: absolute;
+        top:0;
+        left:0;
+    }
+}
+
+.image-hover{
+    .site-title{
+        path{
+            fill: white; 
+        }
+    }
+}
+
+.dawes{
+    opacity: 1;
+    // animation: dawesGlitch2 6s .5s linear infinite;
+    // animation: dawesFade 2s 0s linear infinite;
+}
+
+.limon-vega{
+    top: 5px!important;
+    opacity: 0;
+    // animation: limonGlitch2 6s .5s linear infinite;
+    // animation: limonFade 2s 0s linear infinite;
+
+}
+
+@keyframes dawesGlitch {
+	0%, 14.99%, 17%, 18.99%, 30%, 44.99%, 48%, 51.99%, 60%, 74.99% {
+        opacity: 1;
+    }
+	15%, 16.99%, 19%, 29.99%, 45%, 47.99%, 52%, 59.99%, 75%, 99.99% {
+        opacity: 0;
+    }
+}
+
+@keyframes limonGlitch {
+	0%, 14.99%, 17%, 18.99%, 30%, 44.99%, 48%, 51.99%, 60%, 74.99% {
+        opacity: 0;
+    }
+	15%, 16.99%, 19%, 29.99%, 45%, 47.99%, 52%, 59.99%, 75%, 99.99% {
+        opacity: 1;
+    }
+}
+
+@keyframes dawesGlitch2 {
+	0%, 7.495%, 8.5%, 9.495%, 15%, 22.495%, 24%, 25.995%, 30%, 37.495%, 50% {
+        opacity: 1;
+    }
+	7.5%, 8.495%, 9.5%, 14.995%, 22.5%, 23.995%, 26%, 29.995%, 37.5%, 49.95% {
+        opacity: 0;
+    }
+}
+
+@keyframes limonGlitch2 {
+	0%, 7.495%, 8.5%, 9.495%, 15%, 22.495%, 24%, 25.995%, 30%, 37.495%, 50% {
+        opacity: 0;
+    }
+	7.5%, 8.495%, 9.5%, 14.995%, 22.5%, 23.995%, 26%, 29.995%, 37.5%, 49.95% {
+        opacity: 1;
+    }
+}
+
+@keyframes limonFade{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    35%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+    }
+    55%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;        
+    }
+}
+
+@keyframes dawesFade{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    65%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;        
+    }
+}
+
+
+
+
+details, summary{
+    margin: 0;
+    padding: 0;
+}
+// Right-align all summaries.
+details > summary {
+    list-style: none; // Remove the default arrow.
+}
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+
+.button.menu-toggle-button{
+    width: 30px; 
+    height: 30px;
+    position: fixed;
+    left: var(--pageMargins);
+    top: 25px;
+    display: block;
+    z-index: 10000;
+    mix-blend-mode: difference;
+}
+
+.menu-toggle-button-inner{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.menu-bar{
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    &:nth-child(1){
+        top: 10px;
+    }
+    &:nth-child(2){
+        top: 18px;
+    }
+}
+.main-menu-container{
+    display: none;
+    width:100%;
+    height:100%;
+    position: fixed;
+    z-index: 1000;
+    top:0;
+    left:0;
+}
+
+.main-menu-container{
+    width:100vw;
+    min-height: 100vh;
+    background: var(--dawes-green);
+    position: fixed;
+    display: grid;
+    grid-template-rows: 50px 1fr 70px;
+    transform: translate(-100%, 0);
+    // transition: 200ms  transform ease-in-out;
+    z-index: 100;
+}
+
+.button.menu-close{
+    padding: var(--pageMargins);
+    display: block;
+    text-align: right;
+    font-size: 1em;
+    color: black  !important;
+    background-color: transparent !important;
+    width: auto;
+    justify-self: end;
+    font-family: nimbus-sans, 'Helvetica Neue', 'Helvetica', 'Arial', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+    opacity: 0;
+    &:focus{
+        opacity: 1;
+    }
+}
+
+.main-menu-list{
+    font-size: 3.75em;
+    line-height: 1;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0 40px;
+    a, a:link, a:visited{
+        text-decoration: none;
+        padding: 5px;
+        color: inherit;
+    }
+    a:hover, a:active{
+        
+    }
+}
+
+.menu-social{
+    text-align: center;
+    padding: 15px;
+}
+
+/*
+================================================================
+MENU TOGGLE
+================================================================
+*/
+
+.menu--open .main-menu-container{
+    transform: translate(0,0);
+    // transition: 200ms  transform ease-in-out;
+}
+
+.menu--open{
+    .menu-bar:nth-child(1){
+       transform: rotate(-45deg);
+       top: 13px;
+    }
+    .menu-bar:nth-child(2){
+        transform: rotate(45deg);
+        top: 13px;
+     }
+}
+

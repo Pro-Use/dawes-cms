@@ -1,0 +1,53 @@
+title: Default File
+
+columns:
+  - width: 1/2
+    fields:
+      alt:
+        label: Alt Text
+        type: text
+      caption:
+        label: Caption
+        type: text
+
+  - width: 1/2
+    fields:
+      slideType:
+        type: toggles
+        label: Slide Type
+        options:
+          - value: image
+            text: Image
+          - value: vimeo
+            text: Vimeo Embed
+          - value: video
+            text: Video Upload  
+        grow: true 
+        default: image    
+      videoFile:
+        label: Video File
+        type: files
+        max: 1
+        uploads: video
+        when:
+          slideType: video
+        required: true
+      vimeoLink:
+        label: Vimeo Url
+        type: text
+        help: Enter a vimeo URL here if you want to embed a video
+        when:
+          slideType: vimeo
+        required: true
+      autoplayVimeo:
+        type: toggle
+        label: Autoplay
+        help: Autoplay video (video will begin with sound off due to browser restrictions)
+        when:
+          slideType: vimeo
+      autoplayVideo:
+        type: toggle
+        label: Autoplay
+        help: Autoplay video (video will begin with sound off due to browser restrictions)
+        when:
+          slideType: video

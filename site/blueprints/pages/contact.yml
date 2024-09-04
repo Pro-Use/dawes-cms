@@ -1,0 +1,16 @@
+title: Contact
+icon: email
+options:
+  changeTemplate:
+    - default
+
+tabs:
+  content_tab:
+    label: Content
+    icon: text
+    columns:
+     - width: 2/3
+        fields:
+          contact:
+            type: writer
+  seotab: seo   

@@ -1,0 +1,15 @@
+$name: xxl;  
+$size: map-deep-get($breakpoints, "xxl", "width"); 
+
+@media only screen and (min-width: $size) {
+ 
+  
+    .max-width{
+        max-width: 1550px;
+        margin: 0 auto;
+    }
+   
+
+
+
+} /* End Media Query */

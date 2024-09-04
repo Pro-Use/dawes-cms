@@ -1,0 +1,103 @@
+$name: md;  
+$size: map-deep-get($breakpoints, "md", "width"); 
+
+@media only screen and (min-width: $size) {
+
+
+
+
+/*
+================================================================
+HOME
+================================================================
+*/
+
+a.artist-link{
+    background-color: var(--dawes-black);
+    color: white;
+    display: block;
+    text-decoration: none;
+    margin: 20px 20px 20px;
+    width: 100%;
+    max-width: 700px;
+    display: inline-block;
+    .artist-name{
+        padding: 5px;
+        font-size: 60px;
+        line-height: 60px;
+        text-align: center;
+        text-transform: uppercase;
+        width: 100%;
+        display: block;
+    }
+    .artist-caption{
+        padding: 0px 5px 12px;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        display: block;
+        text-transform: uppercase;        
+        font-family: 'Monument-Semi-Mono', monospace;
+    }
+}
+
+
+
+
+/*
+================================================================
+ARTIST
+================================================================
+*/
+
+.body-text, .body-content{
+    font-size: 1.875em;
+}
+
+.filters{
+    font-size: 1.25em;
+    padding-bottom: 65px;
+}
+
+.filter-button{
+    border-bottom: 3px solid transparent; 
+    &.active{
+        border-bottom: 3px solid black;
+    }
+}
+
+.artist-index-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.album-caption{
+    font-size: 1em;
+}
+
+.artist-title{
+    max-width: 600px;
+}
+
+
+.slideshow-close-button, .slideshow-footer{
+    font-size: 1.625em;
+}
+
+.slide-inner{
+    .slide-image-container{
+        padding: 120px var(--pageMargins) 120px;
+    }
+}
+
+
+
+.private-page-caption{
+    font-size: 24px;
+    padding-bottom: 70px;
+}
+
+} /* End Media Query */

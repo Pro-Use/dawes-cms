@@ -1,0 +1,53 @@
+title: Slideshow
+icon: images
+options:
+  changeTemplate:
+    - default
+
+tabs:
+  content_tab:
+    label: Content
+    icon: text
+    columns:
+     - width: 1/3
+        fields:
+          cover:
+            label: Cover Image
+            type: files
+            max: 1
+            layout: cards
+            image:
+              ratio: 1/1
+              back: white
+            uploads: default   
+          caption:
+            type: writer 
+          categories:
+            type: tags
+            accept: options
+            options: query
+            query:
+              fetch: page.parent.categories.split
+     - width: 2/3
+        fields:
+          gallery:
+            label: Images
+            type: files
+            layout: cards
+            size: small 
+            image:
+              ratio: 1/1
+              back: white
+            uploads: default
+        
+
+  files_tab:
+    label: Files
+    icon: add
+    sections:
+      filesSection:
+        headline: Files
+        type: files
+        layout: cards
+        size: small
+        template: default        

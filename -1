@@ -1,0 +1,666 @@
+[28-Nov-2023 06:50:48 America/New_York] Kirby\Exception\NotFoundException: The default template does not exist in /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/Page.php:1056
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(800): Kirby\Cms\Page->render()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->io()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#3 {main}
+[28-Nov-2023 06:51:27 America/New_York] Kirby\Exception\NotFoundException: The default template does not exist in /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/Page.php:1056
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(800): Kirby\Cms\Page->render()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->io()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#3 {main}
+[28-Nov-2023 06:52:04 America/New_York] Kirby\Exception\NotFoundException: The default template does not exist in /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/Page.php:1056
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(800): Kirby\Cms\Page->render()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->io()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#3 {main}
+[28-Nov-2023 06:53:07 America/New_York] Kirby\Exception\NotFoundException: The default template does not exist in /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/Page.php:1056
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(800): Kirby\Cms\Page->render()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->io()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#3 {main}
+[28-Nov-2023 06:56:26 America/New_York] ParseError: syntax error, unexpected single-quoted string "", expecting ")" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:15
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[28-Nov-2023 07:01:09 America/New_York] Kirby\Exception\NotFoundException: The default template does not exist in /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/Page.php:1056
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(800): Kirby\Cms\Page->render()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->io()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#3 {main}
+[28-Nov-2023 07:02:45 America/New_York] Kirby\Exception\NotFoundException: The default template does not exist in /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/Page.php:1056
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(800): Kirby\Cms\Page->render()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->io()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#3 {main}
+[28-Nov-2023 07:03:29 America/New_York] Kirby\Exception\NotFoundException: The default template does not exist in /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/Page.php:1056
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(800): Kirby\Cms\Page->render()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->io()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#3 {main}
+[28-Nov-2023 07:14:56 America/New_York] ParseError: syntax error, unexpected end of file in /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/vue-redirect/index.php:8
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(443): Kirby\Http\Response::guardAgainstOutput()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/AppPlugins.php(919): Kirby\Filesystem\F::loadOnce()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/AppPlugins.php(886): Kirby\Cms\App->pluginsLoader()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/AppPlugins.php(763): Kirby\Cms\App->plugins()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(142): Kirby\Cms\App->extensionsFromPlugins()
+#6 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#7 {main}
+[28-Nov-2023 07:15:38 America/New_York] Kirby\Exception\NotFoundException: The default template does not exist in /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/Page.php:1056
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(800): Kirby\Cms\Page->render()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->io()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#3 {main}
+[28-Nov-2023 07:16:27 America/New_York] Kirby\Exception\NotFoundException: The default template does not exist in /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/Page.php:1056
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(800): Kirby\Cms\Page->render()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->io()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#3 {main}
+[05-Dec-2023 09:47:17 America/New_York] ParseError: syntax error, unexpected variable "$payload" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:24
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 09:47:55 America/New_York] ParseError: syntax error, unexpected variable "$payload" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:24
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 09:51:13 America/New_York] ParseError: syntax error, unexpected variable "$payload" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:24
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 09:52:01 America/New_York] ParseError: syntax error, unexpected variable "$payload" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:24
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 09:52:16 America/New_York] ParseError: syntax error, unexpected variable "$payload" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:24
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 09:52:41 America/New_York] InvalidArgumentException: Invalid route parameters in /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php:66
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1425): Kirby\Http\Router->__construct()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Cms\App->router()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#4 {main}
+[05-Dec-2023 09:57:18 America/New_York] ParseError: syntax error, unexpected token "}", expecting ";" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:48
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 09:57:32 America/New_York] InvalidArgumentException: Invalid route parameters in /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php:66
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1425): Kirby\Http\Router->__construct()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Cms\App->router()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#4 {main}
+[05-Dec-2023 09:58:08 America/New_York] InvalidArgumentException: Invalid route parameters in /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php:66
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1425): Kirby\Http\Router->__construct()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Cms\App->router()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#4 {main}
+[05-Dec-2023 10:00:45 America/New_York] InvalidArgumentException: Invalid route parameters in /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php:66
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1425): Kirby\Http\Router->__construct()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Cms\App->router()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#4 {main}
+[05-Dec-2023 10:03:56 America/New_York] Whoops\Exception\ErrorException: Undefined array key "email" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:26
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php(26): Whoops\Run->handleError()
+#1 [internal function]: Kirby\Http\Route->{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#6 {main}
+[05-Dec-2023 10:05:14 America/New_York] ParseError: syntax error, unexpected token ";" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:27
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:05:16 America/New_York] ParseError: syntax error, unexpected token ";" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:27
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:05:29 America/New_York] ParseError: syntax error, unexpected token ";" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:27
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:05:31 America/New_York] ParseError: syntax error, unexpected token ";" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:27
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:06:41 America/New_York] Whoops\Exception\ErrorException: Attempt to read property "data" on null in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:44
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php(44): Whoops\Run->handleError()
+#1 [internal function]: Kirby\Http\Route->{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#6 {main}
+[05-Dec-2023 10:07:30 America/New_York] Whoops\Exception\ErrorException: Attempt to read property "data" on null in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:44
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php(44): Whoops\Run->handleError()
+#1 [internal function]: Kirby\Http\Route->{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#6 {main}
+[05-Dec-2023 10:08:35 America/New_York] TypeError: Kirby\Http\Response::__construct(): Argument #1 ($body) must be of type array|string, null given, called in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php on line 45 and defined in /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php:53
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php(45): Kirby\Http\Response->__construct()
+#1 [internal function]: Kirby\Http\Route->{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#6 {main}
+[05-Dec-2023 10:11:00 America/New_York] TypeError: Kirby\Http\Response::__construct(): Argument #1 ($body) must be of type array|string, null given, called in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php on line 45 and defined in /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php:53
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php(45): Kirby\Http\Response->__construct()
+#1 [internal function]: Kirby\Http\Route->{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#6 {main}
+[05-Dec-2023 10:12:49 America/New_York] ParseError: syntax error, unexpected token "}", expecting ";" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:48
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:15:22 America/New_York] ParseError: syntax error, unexpected token "if" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:24
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:15:29 America/New_York] ParseError: syntax error, unexpected token "if" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:24
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:15:51 America/New_York] ParseError: syntax error, unexpected token "return" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:44
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:15:52 America/New_York] ParseError: syntax error, unexpected token "return" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:44
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:16:55 America/New_York] ParseError: syntax error, unexpected token "return" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:44
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:18:45 America/New_York] ParseError: syntax error, unexpected token "if" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:24
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:20:00 America/New_York] ParseError: syntax error, unexpected token "if" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:24
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:20:01 America/New_York] ParseError: syntax error, unexpected token "if" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:24
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:21:04 America/New_York] ParseError: syntax error, unexpected identifier "dump" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:24
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:21:05 America/New_York] ParseError: syntax error, unexpected identifier "dump" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:24
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:21:50 America/New_York] ParseError: syntax error, unexpected token "}" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:49
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:21:52 America/New_York] ParseError: syntax error, unexpected token "}" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:49
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:22:32 America/New_York] ParseError: syntax error, unexpected token "}" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:50
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:22:33 America/New_York] ParseError: syntax error, unexpected token "}" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:50
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:23:16 America/New_York] ParseError: syntax error, unexpected token "}" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:49
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:24:23 America/New_York] ParseError: syntax error, unexpected token "return" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:25
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:25:51 America/New_York] Whoops\Exception\ErrorException: Undefined array key "email" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:29
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php(29): Whoops\Run->handleError()
+#1 [internal function]: Kirby\Http\Route->{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#6 {main}
+[05-Dec-2023 10:26:29 America/New_York] TypeError: Kirby\Http\Response::__construct(): Argument #1 ($body) must be of type array|string, null given, called in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php on line 44 and defined in /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php:53
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php(44): Kirby\Http\Response->__construct()
+#1 [internal function]: Kirby\Http\Route->{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#6 {main}
+[05-Dec-2023 10:27:10 America/New_York] TypeError: Kirby\Http\Response::__construct(): Argument #1 ($body) must be of type array|string, null given, called in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php on line 44 and defined in /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php:53
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php(44): Kirby\Http\Response->__construct()
+#1 [internal function]: Kirby\Http\Route->{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#6 {main}
+[05-Dec-2023 10:27:39 America/New_York] ParseError: syntax error, unexpected token "}" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:47
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:31:05 America/New_York] Whoops\Exception\ErrorException: Undefined property: Kirby\Http\Remote::$code in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:44
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php(44): Whoops\Run->handleError()
+#1 [internal function]: Kirby\Http\Route->{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#6 {main}
+[05-Dec-2023 10:33:09 America/New_York] ParseError: syntax error, unexpected token "}" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:48
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:36:00 America/New_York] ParseError: syntax error, unexpected token "return" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:45
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:36:20 America/New_York] TypeError: json_decode(): Argument #1 ($json) must be of type string, Kirby\Http\Remote given in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:43
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php(43): json_decode()
+#1 [internal function]: Kirby\Http\Route->{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#6 {main}
+[05-Dec-2023 10:39:25 America/New_York] ParseError: syntax error, unexpected identifier "dump" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:45
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[05-Dec-2023 10:52:37 America/New_York] TypeError: Kirby\Http\Response::__construct(): Argument #1 ($body) must be of type array|string, stdClass given, called in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php on line 45 and defined in /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php:53
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php(45): Kirby\Http\Response->__construct()
+#1 [internal function]: Kirby\Http\Route->{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#6 {main}
+[05-Dec-2023 10:54:30 America/New_York] ParseError: syntax error, unexpected token "}" in /home/pmstudio/dev.10pm.studio/dawes/cms/site/config/config.php:48
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Response.php(215): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Filesystem/F.php(370): Kirby\Http\Response::guardAgainstOutput()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1066): Kirby\Filesystem\F::load()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(102): Kirby\Cms\App->optionsFromConfig()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->__construct()
+#6 {main}
+[07-Dec-2023 16:15:14 America/New_York] Whoops\Exception\ErrorException: file_get_contents(/home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/dist/js/index-43b8cfaa.js): Failed to open stream: No such file or directory in /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php:47
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php(47): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[07-Dec-2023 16:15:15 America/New_York] Whoops\Exception\ErrorException: file_get_contents(/home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/dist/css/index-0378b79b.css): Failed to open stream: No such file or directory in /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php:50
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php(50): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[07-Dec-2023 16:16:43 America/New_York] Whoops\Exception\ErrorException: file_get_contents(/home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/dist/js/index-43b8cfaa.js): Failed to open stream: No such file or directory in /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php:47
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php(47): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[07-Dec-2023 16:16:43 America/New_York] Whoops\Exception\ErrorException: file_get_contents(/home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/dist/css/index-0378b79b.css): Failed to open stream: No such file or directory in /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php:50
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php(50): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[07-Dec-2023 16:21:10 America/New_York] Whoops\Exception\ErrorException: file_get_contents(/home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/dist/index-0378b79b.css): Failed to open stream: No such file or directory in /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php:50
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php(50): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[07-Dec-2023 16:21:10 America/New_York] Whoops\Exception\ErrorException: file_get_contents(/home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/dist/index-43b8cfaa.js): Failed to open stream: No such file or directory in /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php:47
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php(47): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[07-Dec-2023 16:22:07 America/New_York] Whoops\Exception\ErrorException: file_get_contents(/home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/dist/index-0378b79b.css): Failed to open stream: No such file or directory in /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php:50
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php(50): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[07-Dec-2023 16:22:07 America/New_York] Whoops\Exception\ErrorException: file_get_contents(/home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/dist/index-43b8cfaa.js): Failed to open stream: No such file or directory in /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php:47
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php(47): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[07-Dec-2023 16:22:28 America/New_York] Whoops\Exception\ErrorException: file_get_contents(/home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/dist/index-43b8cfaa.js): Failed to open stream: No such file or directory in /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php:47
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php(47): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[07-Dec-2023 16:23:22 America/New_York] Whoops\Exception\ErrorException: file_get_contents(/home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/dist/index-43b8cfaa.js): Failed to open stream: No such file or directory in /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php:47
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php(47): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[07-Dec-2023 16:23:24 America/New_York] Whoops\Exception\ErrorException: file_get_contents(/home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/dist/index-43b8cfaa.js): Failed to open stream: No such file or directory in /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php:47
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php(47): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[08-Dec-2023 09:24:33 America/New_York] Whoops\Exception\ErrorException: Undefined variable $seg_res_data in /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php:46
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php(46): Whoops\Run->handleError()
+#1 [internal function]: Kirby\Http\Route->{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#6 {main}
+[08-Dec-2023 09:24:58 America/New_York] Whoops\Exception\ErrorException: Undefined variable $seg_res_data in /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php:46
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php(46): Whoops\Run->handleError()
+#1 [internal function]: Kirby\Http\Route->{closure}()
+#2 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#6 {main}
+[02-Jan-2024 06:13:54 America/New_York] Whoops\Exception\ErrorException: file_get_contents(/home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/dist/assets/index-7b34d770.js): Failed to open stream: No such file or directory in /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php:64
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php(64): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[02-Jan-2024 06:13:54 America/New_York] Whoops\Exception\ErrorException: file_get_contents(/home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/dist/assets/index-192236a0.css): Failed to open stream: No such file or directory in /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php:67
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/site/plugins/dawes-headless/index.php(67): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[11-Jan-2024 06:43:59 America/New_York] Kirby\Exception\NotFoundException: The user "artists@dawesandco.com" cannot be found in /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/Auth.php:560
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/Auth.php(423): Kirby\Cms\Auth->validatePassword()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#2 [internal function]: Kirby\Cms\Api->{closure}()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Api/Api.php(181): Closure->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/Api.php(46): Kirby\Api\Api->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Api/Api.php(503): Kirby\Cms\Api->call()
+#6 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/config/routes.php(46): Kirby\Api\Api->render()
+#7 [internal function]: Kirby\Http\Route->{closure}()
+#8 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#10 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#11 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#12 {main}
+[11-Jan-2024 06:44:56 America/New_York] Kirby\Exception\NotFoundException: The user "artists@dawesandco.com" cannot be found in /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/Auth.php:560
+Stack trace:
+#0 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/Auth.php(423): Kirby\Cms\Auth->validatePassword()
+#1 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#2 [internal function]: Kirby\Cms\Api->{closure}()
+#3 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Api/Api.php(181): Closure->call()
+#4 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/Api.php(46): Kirby\Api\Api->call()
+#5 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Api/Api.php(503): Kirby\Cms\Api->call()
+#6 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/config/routes.php(46): Kirby\Api\Api->render()
+#7 [internal function]: Kirby\Http\Route->{closure}()
+#8 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#10 /home/pmstudio/dev.10pm.studio/dawes/cms/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#11 /home/pmstudio/dev.10pm.studio/dawes/cms/index.php(5): Kirby\Cms\App->render()
+#12 {main}

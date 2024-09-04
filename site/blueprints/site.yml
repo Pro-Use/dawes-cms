@@ -1,0 +1,56 @@
+title: Site
+
+tabs:
+  content:
+    columns:
+        - width: 1/3
+            sections:
+              artists:
+                type: pages
+                headline: Artists 
+                layout: list
+                parent: site.find("artists")
+        - width: 1/3
+            sections:
+              private:
+                type: pages
+                headline: Private Pages 
+                layout: list
+                create: private
+                template: private 
+                parent: site.find("private-pages")
+        - width: 1/3
+            sections:
+              pages:
+                type: pages
+                headline: All Pages
+        - width: 1/2
+            fields:
+              news_on:
+                type: toggle
+                label: Show News Ticker?
+              news_text:
+                label: News Ticker Text
+                type: writer
+                when:
+                  news_on: true
+        - width: 1/2
+            fields:
+              display_columns:
+                label: News Columns
+                type: radio
+                options:
+                  one: 1
+                  two: 2
+                  three: 3
+                default: 3
+        - width: 3/3
+            sections:
+              news:
+                type: pages
+                headline: News Articles
+                layout: list
+                parent: site.find("news") 
+                create: news_item
+                template: news_item  
+  seotab: seo

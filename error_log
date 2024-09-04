@@ -1,0 +1,347 @@
+[04-Sep-2022 21:35:15 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 92045536 bytes) in /home/rvzih4ovavas/public_html/new-site/v2/kirby/src/Http/Request/Body.php on line 97
+[04-Sep-2022 21:38:51 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 92045536 bytes) in /home/rvzih4ovavas/public_html/new-site/v2/kirby/src/Http/Request/Body.php on line 97
+[22-Sep-2022 22:27:22 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 113735344 bytes) in /home/rvzih4ovavas/public_html/new-site/v2/kirby/src/Http/Request/Body.php on line 97
+[08-Feb-2024 08:42:55 UTC] Kirby\Exception\InvalidArgumentException: Wrong password in /home/rvzih4ovavas/public_html/kirby/src/Cms/User.php:905
+Stack trace:
+#0 /home/rvzih4ovavas/public_html/kirby/src/Cms/Auth.php(555): Kirby\Cms\User->validatePassword()
+#1 /home/rvzih4ovavas/public_html/kirby/src/Cms/Auth.php(423): Kirby\Cms\Auth->validatePassword()
+#2 /home/rvzih4ovavas/public_html/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#3 [internal function]: Kirby\Cms\Api->{closure}()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Api/Api.php(181): Closure->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/Api.php(46): Kirby\Api\Api->call()
+#6 /home/rvzih4ovavas/public_html/kirby/src/Api/Api.php(503): Kirby\Cms\Api->call()
+#7 /home/rvzih4ovavas/public_html/kirby/config/routes.php(46): Kirby\Api\Api->render()
+#8 [internal function]: Kirby\Http\Route->{closure}()
+#9 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#10 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#11 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#12 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#13 {main}
+[08-Feb-2024 09:57:09 UTC] Kirby\Exception\NotFoundException: The default template does not exist in /home/rvzih4ovavas/public_html/kirby/src/Cms/Page.php:1056
+Stack trace:
+#0 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(800): Kirby\Cms\Page->render()
+#1 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->io()
+#2 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#3 {main}
+[08-Feb-2024 10:12:35 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/index-03c875de.css): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:67
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(67): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[08-Feb-2024 10:12:35 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/index-3b27e84a.js): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:64
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(64): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[13-Feb-2024 11:51:32 UTC] Kirby\Exception\InvalidArgumentException: Wrong password in /home/rvzih4ovavas/public_html/kirby/src/Cms/User.php:905
+Stack trace:
+#0 /home/rvzih4ovavas/public_html/kirby/src/Cms/Auth.php(555): Kirby\Cms\User->validatePassword()
+#1 /home/rvzih4ovavas/public_html/kirby/src/Cms/Auth.php(423): Kirby\Cms\Auth->validatePassword()
+#2 /home/rvzih4ovavas/public_html/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#3 [internal function]: Kirby\Cms\Api->{closure}()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Api/Api.php(181): Closure->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/Api.php(46): Kirby\Api\Api->call()
+#6 /home/rvzih4ovavas/public_html/kirby/src/Api/Api.php(503): Kirby\Cms\Api->call()
+#7 /home/rvzih4ovavas/public_html/kirby/config/routes.php(46): Kirby\Api\Api->render()
+#8 [internal function]: Kirby\Http\Route->{closure}()
+#9 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#10 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#11 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#12 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#13 {main}
+[19-Feb-2024 10:32:54 UTC] Kirby\Exception\InvalidArgumentException: Wrong password in /home/rvzih4ovavas/public_html/kirby/src/Cms/User.php:905
+Stack trace:
+#0 /home/rvzih4ovavas/public_html/kirby/src/Cms/Auth.php(555): Kirby\Cms\User->validatePassword()
+#1 /home/rvzih4ovavas/public_html/kirby/src/Cms/Auth.php(423): Kirby\Cms\Auth->validatePassword()
+#2 /home/rvzih4ovavas/public_html/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#3 [internal function]: Kirby\Cms\Api->{closure}()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Api/Api.php(181): Closure->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/Api.php(46): Kirby\Api\Api->call()
+#6 /home/rvzih4ovavas/public_html/kirby/src/Api/Api.php(503): Kirby\Cms\Api->call()
+#7 /home/rvzih4ovavas/public_html/kirby/config/routes.php(46): Kirby\Api\Api->render()
+#8 [internal function]: Kirby\Http\Route->{closure}()
+#9 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#10 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#11 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#12 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#13 {main}
+[20-Feb-2024 15:41:27 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/index-82f88809.js): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:64
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(64): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[20-Feb-2024 15:41:27 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/index-5fef7ee3.css): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:67
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(67): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[12-Apr-2024 07:20:29 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/source/list.css): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:67
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(67): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[12-Apr-2024 07:20:29 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/res/mods/room.js): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:64
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(64): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[12-Apr-2024 07:20:30 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/app-manifest.json): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:64
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(64): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[12-Apr-2024 07:20:44 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/source/list.css): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:67
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(67): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[12-Apr-2024 07:20:44 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/res/mods/room.js): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:64
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(64): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[12-Apr-2024 07:20:44 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/app-manifest.json): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:64
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(64): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[13-May-2024 19:07:01 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/index-82f88809.js): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:64
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(64): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[13-May-2024 19:07:05 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/index-5fef7ee3.css): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:67
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(67): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[18-May-2024 08:11:09 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/source/list.css): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:67
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(67): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[18-May-2024 08:11:11 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/res/mods/room.js): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:64
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(64): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[18-May-2024 08:11:12 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/app-manifest.json): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:64
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(64): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[18-May-2024 08:12:08 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/source/list.css): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:67
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(67): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[18-May-2024 08:12:09 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/res/mods/room.js): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:64
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(64): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[18-May-2024 08:12:10 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/app-manifest.json): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:64
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(64): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[05-Jul-2024 13:07:18 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/js/fuck.js): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:64
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(64): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[03-Aug-2024 06:35:47 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/uploadify/uploadify.css): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:67
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(67): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[08-Aug-2024 21:48:54 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/res/mods/room.js): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:64
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(64): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[08-Aug-2024 21:48:54 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/app-manifest.json): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:64
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(64): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[08-Aug-2024 23:36:03 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/res/mods/room.js): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:64
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(64): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[08-Aug-2024 23:36:04 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/app-manifest.json): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:64
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(64): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[08-Aug-2024 23:36:17 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/res/mods/room.js): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:64
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(64): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[08-Aug-2024 23:36:17 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/app-manifest.json): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:64
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(64): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[13-Aug-2024 20:45:49 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/js/uploadify/uploadify.css): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:67
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(67): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[31-Aug-2024 08:58:02 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/js/dropzone/dropzone-amd-module.min.js): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:64
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(64): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}
+[01-Sep-2024 21:13:23 UTC] Whoops\Exception\ErrorException: file_get_contents(/home/rvzih4ovavas/public_html/site/plugins/dawes-headless/dist/assets/js/dropzone/dropzone-amd-module.min.js): Failed to open stream: No such file or directory in /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php:64
+Stack trace:
+#0 [internal function]: Whoops\Run->handleError()
+#1 /home/rvzih4ovavas/public_html/site/plugins/dawes-headless/index.php(64): file_get_contents()
+#2 [internal function]: Kirby\Http\Route->{closure}()
+#3 /home/rvzih4ovavas/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#4 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(340): Kirby\Http\Router->call()
+#5 /home/rvzih4ovavas/public_html/kirby/src/Cms/App.php(1239): Kirby\Cms\App->call()
+#6 /home/rvzih4ovavas/public_html/index.php(5): Kirby\Cms\App->render()
+#7 {main}

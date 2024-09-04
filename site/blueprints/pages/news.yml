@@ -1,0 +1,30 @@
+title: News
+
+tabs:
+
+  # content tab
+  content:
+    label: Content
+    icon: text
+    columns:
+     - width: 3/3
+        sections:
+          projects:
+            type: pages
+            headline: Artists 
+            layout: list
+            create: news_item
+            template: news_item
+  seotab: seo
+
+    # Files tab
+  filesTab:
+    label: Files
+    icon: add
+    sections:
+      filesSection:
+        headline: Files
+        type: files
+        layout: cards
+        size: small
+        template: default

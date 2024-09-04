@@ -1,0 +1,108 @@
+/*
+================================================================
+FONTS
+================================================================
+*/
+
+
+@font-face {
+    font-family: 'Monument';
+    src: url('webfonts/ABCMonumentGrotesk-Bold.woff2') format('woff2'),
+         url('webfonts/ABCMonumentGrotesk-Bold.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+
+  }
+  
+  @font-face {
+    font-family: 'Monument-Semi-Mono';
+    src: url('webfonts/ABCMonumentGroteskSemi-Mono-Bold.woff2') format('woff2'),
+         url('webfonts/ABCMonumentGroteskSemi-Mono-Bold.woff') format('woff');
+      font-weight: normal;
+  }
+
+
+body{
+    font-size: 16px;
+    font-family: 'Monument', 'Helvetica', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+    line-height: 1.2; 
+}
+
+.mono{
+    font-family: 'Monument-Semi-Mono', monospace;
+}
+
+.cap{
+    text-transform: uppercase;
+}
+
+/*
+================================================================
+LINKS
+================================================================
+*/
+
+a, a:link, a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    color: #8b0402;
+}
+
+
+/*
+================================================================
+TITLES
+================================================================
+*/
+
+h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+/*
+================================================================
+PARAGRAPHS
+================================================================
+*/
+
+.body-text, .body-content{
+    font-size: 1.5em;
+    p{
+        padding-bottom: 1.5em;
+    }
+    p:last-child{
+        padding-bottom: 0;
+    }
+}
+
+.small-body-content{
+    font-size: 1.25em;
+    p{
+        padding-bottom: 1.25em;
+    }
+    p:last-child{
+        padding-bottom: 0;
+    }
+}
+
+
+p:last-child{
+    padding-bottom: 0;
+}
+
+.page-title{
+    font-size: 1.875em;
+    padding-bottom: 1.875rem;
+}
+
+
+.rte{
+    a:link, a:visited{
+        text-decoration: underline;
+    }
+}

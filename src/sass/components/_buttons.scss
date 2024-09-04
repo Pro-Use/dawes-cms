@@ -1,0 +1,92 @@
+/*
+================================================================
+BUTTONS
+================================================================
+*/
+
+.button{
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    cursor: pointer;
+    /* inherit font & color from ancestor */
+    color: inherit;
+    font: inherit;
+    /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+    line-height: normal;
+    /* Corrects font smoothing for webkit */
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    text-align: inherit;
+    /* Corrects inability to style clickable `input` types in iOS */
+    -webkit-appearance: none;
+    outline: none;
+    border-radius: 0;
+    font-family: 'Monument', 'Helvetica', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+    /* Remove excess padding and border in Firefox 4+ */
+    &::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+}
+
+.button:hover, .button:active{
+    color: #8b0402;
+}
+
+.bg-green{
+    a.button, .button:focus{
+        color: var(--dawes-black);
+        background-color: white;
+    }
+    a.button:hover{
+        color: white;
+        background-color: var(--dawes-green);
+        
+    }
+}
+
+a.link-button{
+    text-align: center;
+    background-color: var(--dawes-black);
+    color: white;
+    font-size: .875em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px 10px;
+    margin-bottom: 5px;
+    &.active, &:hover{
+        background-color: var(--dawes-green);
+    }  
+}
+
+a.filter-button{
+    width: 100%;
+    text-align: center;
+    background-color: var(--dawes-green);
+    color: white;
+    font-size: .875em;
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px 10px;
+    margin-bottom: 5px;
+    &.active, &:hover{
+        background-color: var(--dawes-green);
+    }
+}
+
+a.small-button{
+    font-size: .75em;
+    padding: 5px 10px 5px;
+    background-color: var(--dawes-black);
+    color: white;
+    text-decoration: none;
+    &.active, &:hover{
+        background-color: var(--dawes-green);
+    }
+}
