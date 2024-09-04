@@ -16,18 +16,12 @@ Kirby::plugin('10pm/dawes-site-queries', [
                             "meta_description" => $kirby->site()->meta_description(),
                             "news_on" => $kirby->site()->news_on()->toBool(),
                             "news_text" => $kirby->site()->news_text()->upper(),
-                            "contacts" => []
+                            "contact" => [
+                                $kirby->site()->children()->find('contact')->contact(),
+                                $kirby->site()->children()->find('contact')->id()
+                            ]
                          ]
                     ];
-
-                    $contacts = $kirby->site()->children()->find('contact');
-
-                    foreach($contacts as $contact){
-                        array_push($result['result'], [
-                            "contact" => $contact->contact(),
-                            "id" => $$contact->id()
-                        ]);
-                    }
 
                     return new Response(json_encode($result), 'application/json', 200, ['X-Cached' => $cache_exists]);
                 }
