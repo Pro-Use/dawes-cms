@@ -6,6 +6,7 @@ Kirby::plugin('10pm/dawes-site-queries', [
             return [
               [
                 'pattern' => 'site-query',
+                'auth' => false,
                 'action'  => function () use ($kirby) {
                     $cache_exists = false;
                     $result = [
