@@ -10,11 +10,11 @@ Kirby::plugin('10pm/dawes-site-queries', [
                 'action'  => function () use ($kirby) {
                     $cache_exists = false;
                     $result = [
-                        "url"=> $site->url(),
-                        "title" => $site->meta_title(),
-                        "meta_description" => $site->meta_description(),
-                        "news_on" => $site->news_on()->toBool(),
-                        "news_text" => $site->news_text()->upper(),
+                        "url"=> $kirby->site()->url(),
+                        "title" => $kirby->site()->meta_title(),
+                        "meta_description" => $kirby->site()->meta_description(),
+                        "news_on" => $kirby->site()->news_on()->toBool(),
+                        "news_text" => $kirby->site()->news_text()->upper(),
                     ];
 
                     return new Response(json_encode($result), 'application/json', 200, ['X-Cached' => $cache_exists]);
