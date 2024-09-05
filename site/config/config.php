@@ -6,6 +6,15 @@ return [
     'kql' => [
         'auth' => false
     ],
+    'headless' => [
+        // Default CORS configuration
+        'cors' => [
+            'allowOrigin' => '*',
+            'allowMethods' => 'GET, POST, OPTIONS',
+            'allowHeaders' => 'Accept, Content-Type, Authorization, X-Language',
+            'maxAge' => '86400',
+        ]
+    ],
     'thumbs' => [
         'srcsets' => [
                 'half' => [300, 600, 800, 1024],
