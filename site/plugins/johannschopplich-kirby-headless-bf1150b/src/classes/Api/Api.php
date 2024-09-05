@@ -53,9 +53,11 @@ class Api
             $body['result'] = $data;
         }
 
+        $cached_val = $cached ? 'true' : 'false';
+
         return Response::json($body, $code, null, [
             'Access-Control-Allow-Origin' => $kirby->option('headless.cors.allowOrigin', '*'),
-            'X-from-cache' => $cached
+            'X-from-cache' => $cached_val 
         ]);
     }
 
