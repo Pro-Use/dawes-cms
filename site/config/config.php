@@ -12,6 +12,12 @@ return [
                 'full' => [300, 600, 800, 1024, 2048]
             ]
     ],
+    'cache' => [
+        'pages' => [
+            'active' => true,
+        ]
+    ],
+
     // Flodesk signup route
     // 'routes' => [
     //     [
