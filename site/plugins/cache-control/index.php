@@ -14,6 +14,7 @@ Kirby::plugin('10pm/cache-control', [
             return [
               [
                 'pattern' => 'refresh-cache',
+                'auth' => false,
                 'action'  => function () use ($kirby) {
                     // flush cache
                     $kirby->cache('pages')->flush();
