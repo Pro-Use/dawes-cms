@@ -39,7 +39,7 @@ Kirby::plugin('10pm/cache-control', [
     ],
     'hooks' => [
         'page.*:after' => function ($event) {
-            if ($event->action() === 'render' && $event->argument('contentType')  == 'json'){
+            if ($event->action() === 'render'){
                 return;
             } else {
                 $res = $this->api()->call('/refresh-cache');
