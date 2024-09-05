@@ -3,6 +3,11 @@ title: Site
 tabs:
   content:
     columns:
+        - width: 3/3
+            sections:
+              cache:
+                type: cache-control
+                label: Cache
         - width: 1/3
             sections:
               artists:
