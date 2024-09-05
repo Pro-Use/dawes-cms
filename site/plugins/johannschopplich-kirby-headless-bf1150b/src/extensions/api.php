@@ -62,6 +62,7 @@ return [
                         $cache = $cacheKey = $data = null;
                         $languageCode = $kirby->request()->header('X-Language');
                         $isCacheable = $kirby->request()->header('X-Cacheable') !== 'false';
+                        $fromCache = false;
 
                         // Set the Kirby language in multilanguage sites
                         if ($kirby->multilang() && !empty($languageCode)) {
@@ -75,15 +76,17 @@ return [
 
                             if ($isCacheable) {
                                 $data = $cache->get($cacheKey);
+                                $fromCache = true;
                             }
                         }
 
                         if ($data === null) {
                             $data = \Kirby\Kql\Kql::run($input);
                             $cache?->set($cacheKey, $data);
+                            $fromCache = false;
                         }
 
-                        return Api::createResponse(200, $data);
+                        return Api::createResponse(200, $data, $fromCache);
                     }
                 )
             ],

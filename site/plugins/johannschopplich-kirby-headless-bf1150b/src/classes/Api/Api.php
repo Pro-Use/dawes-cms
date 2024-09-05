@@ -40,7 +40,7 @@ class Api
      * @remarks
      * Enforces consistent JSON responses by wrapping Kirby's `Response` class
      */
-    public static function createResponse(int $code, $data = null): Response
+    public static function createResponse(int $code, $data = null, $cached = false): Response
     {
         $kirby = App::instance();
 
@@ -54,7 +54,8 @@ class Api
         }
 
         return Response::json($body, $code, null, [
-            'Access-Control-Allow-Origin' => $kirby->option('headless.cors.allowOrigin', '*')
+            'Access-Control-Allow-Origin' => $kirby->option('headless.cors.allowOrigin', '*'),
+            'X-from-cache' => $cached
         ]);
     }
 
