@@ -12,8 +12,8 @@ tabs:
               type: writer
       - width: 3/4
           fields:
-              text:
-                type: blocks
-                  - text
-                  - image
+            text:
+              type: blocks
+                - text
+                - image
   seotab: seo
