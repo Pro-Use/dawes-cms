@@ -14,7 +14,9 @@ tabs:
             type: pages
             headline: Artists 
             layout: list
-            create: artist
+            create: 
+              - artist
+              - about
             template: artist
   seotab: seo
 
