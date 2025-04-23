@@ -10,7 +10,7 @@ tabs:
           social:
             label: Social Media Links
             type: writer
-    - width: 3/4
+     - width: 3/4
         fields:
             text:
               type: blocks
