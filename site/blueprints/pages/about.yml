@@ -1,6 +1,6 @@
 title: About
 options:
-  preview: "pages/{{ page.slug }}"
+  preview: "/pages/{{ page.slug }}"
 
 tabs:
   content_tab:
